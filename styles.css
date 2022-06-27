@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding: 7%;
+    padding-top: 5%;
+}
+
+#cube {
+    margin: auto;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    border: 1rem black;
+    height: 100%;
+    width: 100%;
+}
+
+tr {
+    height: 10%;
+}
+
+.container {
+    margin-top: auto;
+    height: 100%;
+}
+
+.red {
+    background-color: red;
+    border: solid 3px black;
+}
+
+.yellow {
+    background-color: yellow;
+    border: solid 3px black;
+}
+
+.white {
+    background-color: white;
+    border: solid 3px black;
+}
+
+.blue {
+    background-color: blue;
+    border: solid 3px black;
+}
+
+.orange {
+    background-color: orange;
+    border: solid 3px black;
+}
+
+.green {
+    background-color: green;
+    border: solid 3px black;
+}
+
+.empty {
+    background-color: white;
+}
+
+
+.btn {
+    margin: 3% 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bt {
+    width: 80px;
+    height: 40px;
+    color: #000;
+    border-radius: 10px;
+    margin:5px;
+    border: 2px solid;
+    border-color: #000;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    overflow: hidden;
+    position: relative;
+}
+
